@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+<div  class="page-header">
+<!-- <h1>Lista de imagenes</h1> -->
+</div>
+  <div id="contenedor-mains">
+    <div class="row">
+    <table class="table table-bordered">
+      <% @albums.each do |album| %>
+       <div class="flotados">
+            <%= image_tag album.image(:medium), :class=>"img-rounded" %>
+            <%= album.descripcion %>
+           <h4><% if can? :red, album %></h4>
+              <%= link_to 'Ver', album %>
+            <% end %>
+            <% if can? :update, album %>
+              <%= link_to 'Editar', edit_album_path(album) %>
+            <% end %>
+            <% if can? :destroy, album %>
+              <%= link_to 'Eliminar', album, method: :delete, data: { confirm: 'No se podra recuperar...' } %>
+            <% end %>
+        </div>
+      <% end %>
+      </table>
+    </div>
+  </div>
+
+<br>
+
+
+<div  class="page-header">
+    <%= link_to 'Subir imagen', new_album_path %>
+</div>

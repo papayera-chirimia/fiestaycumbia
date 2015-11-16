@@ -1,0 +1,45 @@
+<div class="authform">
+  <h3>Editar usuario<%#= resource_name.to_s.humanize %></h3>
+  <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put, :role => 'form'}) do |f| %>
+    <%= devise_error_messages! %>
+    <div class="form-group">
+      <%= f.label :name, "Nombre" %>
+      <%= f.text_field :name, :autofocus => true, class: 'form-control' %>
+    </div>
+   <!-- <div class="form-group">
+      <%#= f.label :role, "Rol" %>
+      <%#= f.text_field :role, :autofocus => true, class: 'form-control' %>
+    </div> -->
+    <div class="form-group">
+      <%= f.label :correo %>
+      <%= f.email_field :email, class: 'form-control' %>
+      <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+        <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
+      <% end %>
+    </div>
+    <fieldset>
+      <p>Deje estos campos en blanco si no desea cambiar su contraseña.</p>
+      <div class="form-group">
+        <%= f.label :contraseña %>
+        <%= f.password_field :password, :autocomplete => 'off', class: 'form-control' %>
+      </div>
+      <div class="form-group">
+        <%= f.label :confirmar_contraseña %>
+        <%= f.password_field :password_confirmation, class: 'form-control' %>
+      </div>
+    </fieldset>
+    <fieldset>
+      <p>Ingresar la contraseña actual para realizar los cambios.</p>
+      <div class="form-group">
+        <%= f.label :contraseña_actual %>
+        <%= f.password_field :current_password, class: 'form-control' %>
+      </div>
+    </fieldset>
+    <%= f.submit 'Actualizar', :class => 'button right' %>
+  <% end %>
+</div>
+<div class="authform">
+<h3>Eliminar la cuenta</h3>
+<p>La eliminará? Vamos a estar muy triste al ver que se vaya.  :(</p>
+<%= button_to "Eliminar mi cuenta", registration_path(resource_name), :data => { :confirm => "Borrorá los datos del registro?" }, :method => :delete, :class => 'button right' %>
+</div>

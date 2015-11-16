@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Lista de Clientes</h1>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Teléfono</th>
+      <th>Celular</th>
+      <th>Barrio</th>
+      <th>Dirección</th>
+      <th>Referencia de la dirección</th>
+      <th>Fecha</th>
+      <th>Hora</th>
+      <th>Ocación</th>
+      <!--<th>Valor</th>-->
+      <th colspan="3">Usted puede</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <%= render @clientes %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Nuevo Cliente', new_cliente_path %>
+
+<%# if can? :destroy, cliente %>
+   <%#= link_to t('.destroy', :default => t("helpers.links.destroy")), cliente_path(client), :method => :delete,
+   :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sur   e?')) }, :class => 'btn btn-mini btn-danger' %>
+ <%# end %>

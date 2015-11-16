@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+	<strong>Imagen:</strong>
+	<%= image_tag @album.image.url(:medium), :class=>"img-thumbnail" %>
+</p>
+
+<p>
+  <strong>Descripcion:</strong>
+  <%= @album.descripcion %>
+</p>
+
+<%= link_to 'Editar', edit_album_path(@album) %> 
+<%= link_to 'Atras', albums_path %>

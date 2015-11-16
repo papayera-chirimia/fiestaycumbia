@@ -1,0 +1,25 @@
+<%# add navigation links to this file %>
+<% if user_signed_in? %>
+
+  <li><%= link_to 'CLIENTES', clientes_path %></li>
+  <li><%= link_to 'IMAGENES', albums_path %></li>
+  <li><%= link_to 'VIDEOS', static_pages_video_path %></li>
+  <li><%= link_to 'CONTACTENOS', static_pages_contact_path %></li>
+  	<% if user_signed_in? and current_user.role == 'gerente' %>  
+  		<li><%= link_to 'USUARIOS', users_path %></li>
+	<% end %>
+  <li><%= link_to 'EDITAR CUENTA', edit_user_registration_path %></li>
+  <li><%= link_to 'CERRAR SESION', destroy_user_session_path, :method=>'delete' %></li>
+  <li><%= link_to 'AYUDA', static_pages_help_path %></li>
+  <li><%= link_to current_user.name %></li>
+
+<% else %>
+
+  <li><%= link_to 'IMAGENES', albums_path %></li>
+  <li><%= link_to 'VIDEOS', static_pages_video_path %></li>
+  <li><%= link_to 'CONTACTENOS', static_pages_contact_path %></li>
+  <li><%= link_to 'INICIAR SESION', new_user_session_path %></li>
+  <li><%= link_to 'CREAR CUENTA', new_user_registration_path %></li>
+  <li><%= link_to 'AYUDA', static_pages_help_path %></li>
+
+<% end %>
