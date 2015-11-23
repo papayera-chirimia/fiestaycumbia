@@ -1,6 +1,6 @@
 <%# add navigation links to this file %>
+<li><%= link_to 'INICIO', root_path %></li>
 <% if user_signed_in? %>
-
   <li><%= link_to 'CLIENTES', clientes_path %></li>
   <li><%= link_to 'IMAGENES', albums_path %></li>
   <li><%= link_to 'VIDEOS', static_pages_video_path %></li>
