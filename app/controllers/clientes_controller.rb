@@ -8,7 +8,7 @@ class ClientesController < ApplicationController
   respond_to :html
 
   def index
-    @clientes = Cliente.all
+    @clientes = Cliente.search(params[:search], params[:page])
     respond_with(@clientes)
   end
 
