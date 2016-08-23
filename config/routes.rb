@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :pronums
+
   resources :albums
 
   get 'static_pages/image'

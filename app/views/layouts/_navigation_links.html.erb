@@ -9,6 +9,7 @@
 
   	<% if user_signed_in? and current_user.role == 'gerente' %>  
   		<li><%= link_to 'USUARIOS', users_path %></li>
+      <li><%= link_to 'SUERTE', pronums_path %></li>
     <% elsif user_signed_in? and current_user.role == 'administrador' %>  
       <li><%= link_to 'USUARIOS', users_path %></li>
     <% end %>

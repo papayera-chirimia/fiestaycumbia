@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>A:</strong>
+  <%= @pronum.num1 %>
+</p>
+
+<p>
+  <strong>B:</strong>
+  <%= @pronum.num2 %>
+</p>
+
+<p>
+  <strong>C:</strong>
+  <%= @pronum.num3 %>
+</p>
+
+<p>
+  <strong>D:</strong>
+  <%= @pronum.num4 %>
+</p>
+<%= link_to 'Editar', edit_pronum_path(@pronum) %> |
+<%= link_to 'Atras', pronums_path %>

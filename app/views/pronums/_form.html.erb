@@ -1,0 +1,33 @@
+<%= form_for(@pronum) do |f| %>
+  <% if @pronum.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@pronum.errors.count, "error") %> prohibited this pronum from being saved:</h2>
+
+      <ul>
+      <% @pronum.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :A %><br>
+    <%= f.text_field :num1 %>
+  </div>
+  <div class="field">
+    <%= f.label :B %><br>
+    <%= f.text_field :num2 %>
+  </div>
+  <div class="field">
+    <%= f.label :C %><br>
+    <%= f.text_field :num3 %>
+  </div>
+  <div class="field">
+    <%= f.label :D %><br>
+    <%= f.text_field :num4 %>
+  </div>
+  <div class="actions">
+    <%= f.submit "Aceptar" %>
+  </div>
+<% end %>

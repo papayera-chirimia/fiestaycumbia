@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151105152650) do
+ActiveRecord::Schema.define(version: 20160812202441) do
 
   create_table "albums", force: :cascade do |t|
     t.string   "image"
@@ -35,6 +35,15 @@ ActiveRecord::Schema.define(version: 20151105152650) do
     t.string   "hora"
     t.string   "ocacion"
     t.integer  "valor"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "pronums", force: :cascade do |t|
+    t.string   "num1"
+    t.string   "num2"
+    t.string   "num3"
+    t.string   "num4"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

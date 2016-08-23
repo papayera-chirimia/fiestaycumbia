@@ -1,0 +1,170 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Lista de Números</h1>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+      <th>D</th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @pronums.each do |pronum| %>
+      <tr class="info">
+        <td><%= pronum.num1 %></td>
+        <td><%= pronum.num2 %></td>
+        <td><%= pronum.num3 %></td>
+        <td><%= pronum.num4 %></td>
+      </tr>
+      <tr class="info">
+        <td><%= pronum.num4 %></td>
+        <td><%= pronum.num3 %></td>
+        <td><%= pronum.num2 %></td>
+        <td><%= pronum.num1 %></td>
+      </tr>
+      <tr class="info">
+        <td><%= pronum.num1 %></td>
+        <td><%= pronum.num2 %></td>
+        <td><%= pronum.num4 %></td>
+        <td><%= pronum.num3 %></td>
+      </tr>
+      <tr class="info">
+        <td><%= pronum.num4 %></td>
+        <td><%= pronum.num3 %></td>
+        <td><%= pronum.num1 %></td>
+        <td><%= pronum.num2 %></td>
+      </tr>
+      <tr class="info">
+        <td><%= pronum.num1 %></td>
+        <td><%= pronum.num3 %></td>
+        <td><%= pronum.num2 %></td>
+        <td><%= pronum.num4 %></td>
+      </tr>
+      <tr class="info">
+        <td><%= pronum.num4 %></td>
+        <td><%= pronum.num2 %></td>
+        <td><%= pronum.num3 %></td>
+        <td><%= pronum.num1 %></td>
+      </tr>
+      <tr class="danger">
+        <td><%= pronum.num1 %></td>
+        <td><%= pronum.num3 %></td>
+        <td><%= pronum.num4 %></td>
+        <td><%= pronum.num2 %></td>
+      </tr>
+      <tr class="danger">
+        <td><%= pronum.num4 %></td>
+        <td><%= pronum.num2 %></td>
+        <td><%= pronum.num1 %></td>
+        <td><%= pronum.num3 %></td>
+      </tr>
+      <tr class="danger">
+        <td><%= pronum.num1 %></td>
+        <td><%= pronum.num4 %></td>
+        <td><%= pronum.num2 %></td>
+        <td><%= pronum.num3 %></td>
+      </tr>
+      <tr class="danger">
+        <td><%= pronum.num4 %></td>
+        <td><%= pronum.num1 %></td>
+        <td><%= pronum.num3 %></td>
+        <td><%= pronum.num2 %></td>
+      </tr>
+      <tr class="danger">
+        <td><%= pronum.num1 %></td>
+        <td><%= pronum.num4 %></td>
+        <td><%= pronum.num3 %></td>
+        <td><%= pronum.num2 %></td>
+      </tr>
+      <tr class="danger">
+        <td><%= pronum.num4 %></td>
+        <td><%= pronum.num1 %></td>
+        <td><%= pronum.num2 %></td>
+        <td><%= pronum.num3 %></td>
+      </tr>
+      <tr class="warning">
+        <td><%= pronum.num2 %></td>
+        <td><%= pronum.num3 %></td>
+        <td><%= pronum.num4 %></td>
+        <td><%= pronum.num1 %></td>
+      </tr>
+      <tr class="warning">
+        <td><%= pronum.num3 %></td>
+        <td><%= pronum.num1 %></td>
+        <td><%= pronum.num2 %></td>
+        <td><%= pronum.num4 %></td>
+      </tr>
+      <tr class="warning">
+        <td><%= pronum.num2 %></td>
+        <td><%= pronum.num3 %></td>
+        <td><%= pronum.num1 %></td>
+        <td><%= pronum.num4 %></td>
+      </tr>
+      <tr class="warning">
+        <td><%= pronum.num3 %></td>
+        <td><%= pronum.num1 %></td>
+        <td><%= pronum.num4 %></td>
+        <td><%= pronum.num2 %></td>
+      </tr>
+      <tr class="warning">
+        <td><%= pronum.num2 %></td>
+        <td><%= pronum.num4 %></td>
+        <td><%= pronum.num3 %></td>
+        <td><%= pronum.num1 %></td>
+      </tr>
+      <tr class="warning">
+        <td><%= pronum.num3 %></td>
+        <td><%= pronum.num2 %></td>
+        <td><%= pronum.num1 %></td>
+        <td><%= pronum.num4 %></td>
+      </tr>
+      <tr class="success">
+        <td><%= pronum.num2 %></td>
+        <td><%= pronum.num4 %></td>
+        <td><%= pronum.num1 %></td>
+        <td><%= pronum.num3 %></td>
+      </tr>
+      <tr class="success">
+        <td><%= pronum.num3 %></td>
+        <td><%= pronum.num2 %></td>
+        <td><%= pronum.num4 %></td>
+        <td><%= pronum.num1 %></td>
+      </tr>
+      <tr class="success">
+        <td><%= pronum.num2 %></td>
+        <td><%= pronum.num1 %></td>
+        <td><%= pronum.num4 %></td>
+        <td><%= pronum.num3 %></td>
+      </tr>
+      <tr class="success">
+        <td><%= pronum.num3 %></td>
+        <td><%= pronum.num4 %></td>
+        <td><%= pronum.num1 %></td>
+        <td><%= pronum.num2 %></td>
+      </tr>
+      <tr class="success">
+        <td><%= pronum.num2 %></td>
+        <td><%= pronum.num1 %></td>
+        <td><%= pronum.num3 %></td>
+        <td><%= pronum.num4 %></td>
+      </tr>
+      <tr class="success">
+        <td><%= pronum.num3 %></td>
+        <td><%= pronum.num4 %></td>
+        <td><%= pronum.num1 %></td>
+        <td><%= pronum.num2 %></td>
+        <td><%= link_to 'Editar', edit_pronum_path(pronum), class:"btn btn-success" %></td>
+        <td><%#= link_to 'Eliminar', pronum, method: :delete, data: { confirm: 'Borraras los datos del cliente?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%#= link_to 'Nuevo número', new_pronum_path %>
