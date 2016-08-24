@@ -248,7 +248,7 @@ DEPENDENCIES
   jquery-rails
   launchy
   paperclip (~> 4.3)
-  pg
+  pg (~> 0.18.4)
   quiet_assets
   rails (= 4.2.0)
   rails_12factor

@@ -29,10 +29,8 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'sqlite3'
 end
-group :production do
-  gem 'pg'
+  gem 'pg', '~> 0.18.4'
   gem 'rails_12factor'
-end
 group :test do
   gem 'capybara'
   gem 'database_cleaner'
