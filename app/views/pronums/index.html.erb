@@ -159,12 +159,7 @@
         <td><%= pronum.num1 %></td>
         <td><%= pronum.num2 %></td>
         <td><%= link_to 'Editar', edit_pronum_path(pronum), class:"btn btn-success" %></td>
-        <td><%= link_to 'Eliminar', pronum, method: :delete, data: { confirm: 'Borraras los datos del cliente?' } %></td>
       </tr>
     <% end %>
   </tbody>
 </table>
-
-<br>
-
-<%= link_to 'Nuevo número', new_pronum_path %>
