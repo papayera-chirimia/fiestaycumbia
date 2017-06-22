@@ -1,0 +1,11 @@
+# Logfile created on 2017-06-22 03:01:20 -0500 by logger.rb/47272
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-06-22 03:01:20 -0500 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [03d92378] Running /usr/bin/env mkdir -p /tmp as deploy@192.168.1.3
+ DEBUG [03d92378] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-06-22 03:01:25 -0500 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [6e62b84a] Running /usr/bin/env mkdir -p /tmp as deploy@192.168.1.3
+ DEBUG [6e62b84a] Command: /usr/bin/env mkdir -p /tmp
