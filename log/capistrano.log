@@ -9,3 +9,13 @@
   INFO ---------------------------------------------------------------------------
   INFO [6e62b84a] Running /usr/bin/env mkdir -p /tmp as deploy@192.168.1.3
  DEBUG [6e62b84a] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-06-22 03:08:46 -0500 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [6e270fc2] Running /usr/bin/env mkdir -p /tmp as deploy@192.168.1.3
+ DEBUG [6e270fc2] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-06-22 03:09:07 -0500 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [7ffdd491] Running /usr/bin/env mkdir -p /tmp as deploy@192.168.1.3
+ DEBUG [7ffdd491] Command: /usr/bin/env mkdir -p /tmp
