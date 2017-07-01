@@ -1,8 +1,8 @@
 # config valid only for current version of Capistrano
 lock "3.8.2"
-set :application, 'testapp'
-set :repo_url, 'https://github.com/papayera-chirimia/fiestaycumbia.git'
-set :deploy_to, '/opt/www/testapp'
+set :application, 'papayera'
+set :repo_url, 'https://github.com/papayera-chirimia/papayera.git'
+set :deploy_to, '/opt/www/papayera'
 set :user, 'deploy'
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets}
 
