@@ -3990,3 +3990,533 @@ Tasks: TOP => environment
  DEBUG [da0ebd29] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
  DEBUG [da0ebd29] 	6f893d78e501de78f1ee0f8193a01cbc31b14bdb	HEAD
   INFO [da0ebd29] Finished in 1.099 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-06 19:11:11 -0500 cap production git:check
+  INFO ---------------------------------------------------------------------------
+  INFO [42210a5d] Running /usr/bin/env mkdir -p /tmp as deploy@192.168.1.1
+ DEBUG [42210a5d] Command: /usr/bin/env mkdir -p /tmp
+ DEBUG [42210a5d] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [42210a5d] Finished in 7.200 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-papayera-production-papayera.sh 0.0%
+  INFO Uploading /tmp/git-ssh-papayera-production-papayera.sh 100.0%
+  INFO [f8919e8d] Running /usr/bin/env chmod 700 /tmp/git-ssh-papayera-production-papayera.sh as deploy@192.168.1.1
+ DEBUG [f8919e8d] Command: /usr/bin/env chmod 700 /tmp/git-ssh-papayera-production-papayera.sh
+ DEBUG [f8919e8d] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [f8919e8d] Finished in 0.122 seconds with exit status 0 (successful).
+  INFO [2e5f3629] Running /usr/bin/env git ls-remote https://github.com/papayera-chirimia/papayera.git HEAD as deploy@192.168.1.1
+ DEBUG [2e5f3629] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-papayera-production-papayera.sh" ; /usr/bin/env git ls-remote https://github.com/papayera-chirimia/papayera.git HEAD )
+ DEBUG [2e5f3629] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [2e5f3629] 	b5171ce00784104f694cd4b13b2132e42e9b78d4	HEAD
+  INFO [2e5f3629] Finished in 0.897 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-06 19:11:39 -0500 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [9027aedb] Running /usr/bin/env mkdir -p /tmp as deploy@192.168.1.1
+ DEBUG [9027aedb] Command: /usr/bin/env mkdir -p /tmp
+ DEBUG [9027aedb] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [9027aedb] Finished in 4.980 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-papayera-production-papayera.sh 0.0%
+  INFO Uploading /tmp/git-ssh-papayera-production-papayera.sh 100.0%
+  INFO [28bfe34f] Running /usr/bin/env chmod 700 /tmp/git-ssh-papayera-production-papayera.sh as deploy@192.168.1.1
+ DEBUG [28bfe34f] Command: /usr/bin/env chmod 700 /tmp/git-ssh-papayera-production-papayera.sh
+ DEBUG [28bfe34f] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [28bfe34f] Finished in 0.124 seconds with exit status 0 (successful).
+  INFO [afba71c4] Running /usr/bin/env git ls-remote https://github.com/papayera-chirimia/papayera.git HEAD as deploy@192.168.1.1
+ DEBUG [afba71c4] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-papayera-production-papayera.sh" ; /usr/bin/env git ls-remote https://github.com/papayera-chirimia/papayera.git HEAD )
+ DEBUG [afba71c4] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [afba71c4] 	b5171ce00784104f694cd4b13b2132e42e9b78d4	HEAD
+  INFO [afba71c4] Finished in 0.942 seconds with exit status 0 (successful).
+  INFO [e78fc4f2] Running /usr/bin/env mkdir -p /opt/www/papayera/shared /opt/www/papayera/releases as deploy@192.168.1.1
+ DEBUG [e78fc4f2] Command: /usr/bin/env mkdir -p /opt/www/papayera/shared /opt/www/papayera/releases
+ DEBUG [e78fc4f2] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [e78fc4f2] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO [bad62d98] Running /usr/bin/env mkdir -p /opt/www/papayera/shared/log /opt/www/papayera/shared/tmp/pids /opt/www/papayera/shared/tmp/cache /opt/www/papayera/shared/tmp/sockets /opt/www/papayera/shared/public/assets as deploy@192.168.1.1
+ DEBUG [bad62d98] Command: /usr/bin/env mkdir -p /opt/www/papayera/shared/log /opt/www/papayera/shared/tmp/pids /opt/www/papayera/shared/tmp/cache /opt/www/papayera/shared/tmp/sockets /opt/www/papayera/shared/public/assets
+ DEBUG [bad62d98] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [bad62d98] Finished in 0.126 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-06 19:11:51 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9e9eba18] Running /usr/bin/env mkdir -p /tmp as deploy@192.168.1.1
+ DEBUG [9e9eba18] Command: /usr/bin/env mkdir -p /tmp
+ DEBUG [9e9eba18] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [9e9eba18] Finished in 3.972 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-papayera-production-papayera.sh 0.0%
+  INFO Uploading /tmp/git-ssh-papayera-production-papayera.sh 100.0%
+  INFO [c655aa5d] Running /usr/bin/env chmod 700 /tmp/git-ssh-papayera-production-papayera.sh as deploy@192.168.1.1
+ DEBUG [c655aa5d] Command: /usr/bin/env chmod 700 /tmp/git-ssh-papayera-production-papayera.sh
+ DEBUG [c655aa5d] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [c655aa5d] Finished in 0.126 seconds with exit status 0 (successful).
+  INFO [50ba70f8] Running /usr/bin/env git ls-remote https://github.com/papayera-chirimia/papayera.git HEAD as deploy@192.168.1.1
+ DEBUG [50ba70f8] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-papayera-production-papayera.sh" ; /usr/bin/env git ls-remote https://github.com/papayera-chirimia/papayera.git HEAD )
+ DEBUG [50ba70f8] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [50ba70f8] 	b5171ce00784104f694cd4b13b2132e42e9b78d4	HEAD
+  INFO [50ba70f8] Finished in 0.945 seconds with exit status 0 (successful).
+  INFO [58f330de] Running /usr/bin/env mkdir -p /opt/www/papayera/shared /opt/www/papayera/releases as deploy@192.168.1.1
+ DEBUG [58f330de] Command: /usr/bin/env mkdir -p /opt/www/papayera/shared /opt/www/papayera/releases
+ DEBUG [58f330de] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [58f330de] Finished in 0.131 seconds with exit status 0 (successful).
+  INFO [6683b088] Running /usr/bin/env mkdir -p /opt/www/papayera/shared/log /opt/www/papayera/shared/tmp/pids /opt/www/papayera/shared/tmp/cache /opt/www/papayera/shared/tmp/sockets /opt/www/papayera/shared/public/assets as deploy@192.168.1.1
+ DEBUG [6683b088] Command: /usr/bin/env mkdir -p /opt/www/papayera/shared/log /opt/www/papayera/shared/tmp/pids /opt/www/papayera/shared/tmp/cache /opt/www/papayera/shared/tmp/sockets /opt/www/papayera/shared/public/assets
+ DEBUG [6683b088] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [6683b088] Finished in 0.130 seconds with exit status 0 (successful).
+ DEBUG [04e86c4c] Running [ -f /opt/www/papayera/current/REVISION ] as deploy@192.168.1.1
+ DEBUG [04e86c4c] Command: [ -f /opt/www/papayera/current/REVISION ]
+ DEBUG [04e86c4c] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [04e86c4c] Finished in 0.122 seconds with exit status 1 (failed).
+ DEBUG [42ebb917] Running [ -f /opt/www/papayera/repo/HEAD ] as deploy@192.168.1.1
+ DEBUG [42ebb917] Command: [ -f /opt/www/papayera/repo/HEAD ]
+ DEBUG [42ebb917] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [42ebb917] Finished in 0.125 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /opt/www/papayera/repo
+ DEBUG [664e9e97] Running if test ! -d /opt/www/papayera/repo; then echo "Directory does not exist '/opt/www/papayera/repo'" 1>&2; false; fi as deploy@192.168.1.1
+ DEBUG [664e9e97] Command: if test ! -d /opt/www/papayera/repo; then echo "Directory does not exist '/opt/www/papayera/repo'" 1>&2; false; fi
+ DEBUG [664e9e97] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [664e9e97] Finished in 0.127 seconds with exit status 0 (successful).
+  INFO [b1e4afbd] Running /usr/bin/env git remote set-url origin https://github.com/papayera-chirimia/papayera.git as deploy@192.168.1.1
+ DEBUG [b1e4afbd] Command: cd /opt/www/papayera/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-papayera-production-papayera.sh" ; /usr/bin/env git remote set-url origin https://github.com/papayera-chirimia/papayera.git )
+ DEBUG [b1e4afbd] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [b1e4afbd] Finished in 0.132 seconds with exit status 0 (successful).
+  INFO [24196e26] Running /usr/bin/env git remote update --prune as deploy@192.168.1.1
+ DEBUG [24196e26] Command: cd /opt/www/papayera/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-papayera-production-papayera.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [24196e26] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [24196e26] 	Fetching origin
+ DEBUG [24196e26] 	De https://github.com/papayera-chirimia/papayera
+   6f893d7..b5171ce  master     -> master
+  INFO [24196e26] Finished in 1.307 seconds with exit status 0 (successful).
+ DEBUG [09cf5787] Running if test ! -d /opt/www/papayera/repo; then echo "Directory does not exist '/opt/www/papayera/repo'" 1>&2; false; fi as deploy@192.168.1.1
+ DEBUG [09cf5787] Command: if test ! -d /opt/www/papayera/repo; then echo "Directory does not exist '/opt/www/papayera/repo'" 1>&2; false; fi
+ DEBUG [09cf5787] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [09cf5787] Finished in 0.124 seconds with exit status 0 (successful).
+  INFO [b9747128] Running /usr/bin/env mkdir -p /opt/www/papayera/releases/20170707001157 as deploy@192.168.1.1
+ DEBUG [b9747128] Command: cd /opt/www/papayera/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-papayera-production-papayera.sh" ; /usr/bin/env mkdir -p /opt/www/papayera/releases/20170707001157 )
+ DEBUG [b9747128] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [b9747128] Finished in 0.129 seconds with exit status 0 (successful).
+  INFO [ed46c5e8] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /opt/www/papayera/releases/20170707001157 as deploy@192.168.1.1
+ DEBUG [ed46c5e8] Command: cd /opt/www/papayera/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-papayera-production-papayera.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /opt/www/papayera/releases/20170707001157 )
+ DEBUG [ed46c5e8] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [ed46c5e8] Finished in 1.144 seconds with exit status 0 (successful).
+ DEBUG [18746286] Running if test ! -d /opt/www/papayera/repo; then echo "Directory does not exist '/opt/www/papayera/repo'" 1>&2; false; fi as deploy@192.168.1.1
+ DEBUG [18746286] Command: if test ! -d /opt/www/papayera/repo; then echo "Directory does not exist '/opt/www/papayera/repo'" 1>&2; false; fi
+ DEBUG [18746286] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [18746286] Finished in 0.132 seconds with exit status 0 (successful).
+ DEBUG [ba1987e2] Running /usr/bin/env git rev-list --max-count=1 master as deploy@192.168.1.1
+ DEBUG [ba1987e2] Command: cd /opt/www/papayera/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-papayera-production-papayera.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [ba1987e2] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [ba1987e2] 	b5171ce00784104f694cd4b13b2132e42e9b78d4
+ DEBUG [ba1987e2] Finished in 0.273 seconds with exit status 0 (successful).
+ DEBUG [4423865a] Running if test ! -d /opt/www/papayera/releases/20170707001157; then echo "Directory does not exist '/opt/www/papayera/releases/20170707001157'" 1>&2; false; fi as deploy@192.168.1.1
+ DEBUG [4423865a] Command: if test ! -d /opt/www/papayera/releases/20170707001157; then echo "Directory does not exist '/opt/www/papayera/releases/20170707001157'" 1>&2; false; fi
+ DEBUG [4423865a] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [4423865a] Finished in 0.494 seconds with exit status 0 (successful).
+  INFO [48001250] Running /usr/bin/env echo "b5171ce00784104f694cd4b13b2132e42e9b78d4" >> REVISION as deploy@192.168.1.1
+ DEBUG [48001250] Command: cd /opt/www/papayera/releases/20170707001157 && /usr/bin/env echo "b5171ce00784104f694cd4b13b2132e42e9b78d4" >> REVISION
+ DEBUG [48001250] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [48001250] Finished in 0.129 seconds with exit status 0 (successful).
+  INFO [12aee7dc] Running /usr/bin/env mkdir -p /opt/www/papayera/releases/20170707001157 /opt/www/papayera/releases/20170707001157/tmp /opt/www/papayera/releases/20170707001157/public as deploy@192.168.1.1
+ DEBUG [12aee7dc] Command: /usr/bin/env mkdir -p /opt/www/papayera/releases/20170707001157 /opt/www/papayera/releases/20170707001157/tmp /opt/www/papayera/releases/20170707001157/public
+ DEBUG [12aee7dc] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [12aee7dc] Finished in 0.123 seconds with exit status 0 (successful).
+ DEBUG [a67ad9b6] Running [ -L /opt/www/papayera/releases/20170707001157/log ] as deploy@192.168.1.1
+ DEBUG [a67ad9b6] Command: [ -L /opt/www/papayera/releases/20170707001157/log ]
+ DEBUG [a67ad9b6] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [a67ad9b6] Finished in 0.123 seconds with exit status 1 (failed).
+ DEBUG [b5cedffb] Running [ -d /opt/www/papayera/releases/20170707001157/log ] as deploy@192.168.1.1
+ DEBUG [b5cedffb] Command: [ -d /opt/www/papayera/releases/20170707001157/log ]
+ DEBUG [b5cedffb] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [b5cedffb] Finished in 0.120 seconds with exit status 0 (successful).
+  INFO [37ee27ad] Running /usr/bin/env rm -rf /opt/www/papayera/releases/20170707001157/log as deploy@192.168.1.1
+ DEBUG [37ee27ad] Command: /usr/bin/env rm -rf /opt/www/papayera/releases/20170707001157/log
+ DEBUG [37ee27ad] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [37ee27ad] Finished in 0.189 seconds with exit status 0 (successful).
+  INFO [5fe26431] Running /usr/bin/env ln -s /opt/www/papayera/shared/log /opt/www/papayera/releases/20170707001157/log as deploy@192.168.1.1
+ DEBUG [5fe26431] Command: /usr/bin/env ln -s /opt/www/papayera/shared/log /opt/www/papayera/releases/20170707001157/log
+ DEBUG [5fe26431] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [5fe26431] Finished in 0.129 seconds with exit status 0 (successful).
+ DEBUG [55f90cad] Running [ -L /opt/www/papayera/releases/20170707001157/tmp/pids ] as deploy@192.168.1.1
+ DEBUG [55f90cad] Command: [ -L /opt/www/papayera/releases/20170707001157/tmp/pids ]
+ DEBUG [55f90cad] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [55f90cad] Finished in 0.123 seconds with exit status 1 (failed).
+ DEBUG [79688850] Running [ -d /opt/www/papayera/releases/20170707001157/tmp/pids ] as deploy@192.168.1.1
+ DEBUG [79688850] Command: [ -d /opt/www/papayera/releases/20170707001157/tmp/pids ]
+ DEBUG [79688850] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [79688850] Finished in 0.121 seconds with exit status 1 (failed).
+  INFO [e377f4b0] Running /usr/bin/env ln -s /opt/www/papayera/shared/tmp/pids /opt/www/papayera/releases/20170707001157/tmp/pids as deploy@192.168.1.1
+ DEBUG [e377f4b0] Command: /usr/bin/env ln -s /opt/www/papayera/shared/tmp/pids /opt/www/papayera/releases/20170707001157/tmp/pids
+ DEBUG [e377f4b0] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [e377f4b0] Finished in 0.137 seconds with exit status 0 (successful).
+ DEBUG [c3ffaf96] Running [ -L /opt/www/papayera/releases/20170707001157/tmp/cache ] as deploy@192.168.1.1
+ DEBUG [c3ffaf96] Command: [ -L /opt/www/papayera/releases/20170707001157/tmp/cache ]
+ DEBUG [c3ffaf96] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [c3ffaf96] Finished in 0.127 seconds with exit status 1 (failed).
+ DEBUG [d3318392] Running [ -d /opt/www/papayera/releases/20170707001157/tmp/cache ] as deploy@192.168.1.1
+ DEBUG [d3318392] Command: [ -d /opt/www/papayera/releases/20170707001157/tmp/cache ]
+ DEBUG [d3318392] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [d3318392] Finished in 0.120 seconds with exit status 0 (successful).
+  INFO [90b3fb7c] Running /usr/bin/env rm -rf /opt/www/papayera/releases/20170707001157/tmp/cache as deploy@192.168.1.1
+ DEBUG [90b3fb7c] Command: /usr/bin/env rm -rf /opt/www/papayera/releases/20170707001157/tmp/cache
+ DEBUG [90b3fb7c] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [90b3fb7c] Finished in 0.188 seconds with exit status 0 (successful).
+  INFO [2cc572c2] Running /usr/bin/env ln -s /opt/www/papayera/shared/tmp/cache /opt/www/papayera/releases/20170707001157/tmp/cache as deploy@192.168.1.1
+ DEBUG [2cc572c2] Command: /usr/bin/env ln -s /opt/www/papayera/shared/tmp/cache /opt/www/papayera/releases/20170707001157/tmp/cache
+ DEBUG [2cc572c2] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [2cc572c2] Finished in 0.120 seconds with exit status 0 (successful).
+ DEBUG [2904ef4a] Running [ -L /opt/www/papayera/releases/20170707001157/tmp/sockets ] as deploy@192.168.1.1
+ DEBUG [2904ef4a] Command: [ -L /opt/www/papayera/releases/20170707001157/tmp/sockets ]
+ DEBUG [2904ef4a] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [2904ef4a] Finished in 0.121 seconds with exit status 1 (failed).
+ DEBUG [002534a5] Running [ -d /opt/www/papayera/releases/20170707001157/tmp/sockets ] as deploy@192.168.1.1
+ DEBUG [002534a5] Command: [ -d /opt/www/papayera/releases/20170707001157/tmp/sockets ]
+ DEBUG [002534a5] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [002534a5] Finished in 0.115 seconds with exit status 1 (failed).
+  INFO [f6f96d55] Running /usr/bin/env ln -s /opt/www/papayera/shared/tmp/sockets /opt/www/papayera/releases/20170707001157/tmp/sockets as deploy@192.168.1.1
+ DEBUG [f6f96d55] Command: /usr/bin/env ln -s /opt/www/papayera/shared/tmp/sockets /opt/www/papayera/releases/20170707001157/tmp/sockets
+ DEBUG [f6f96d55] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [f6f96d55] Finished in 0.129 seconds with exit status 0 (successful).
+ DEBUG [35d01efc] Running [ -L /opt/www/papayera/releases/20170707001157/public/assets ] as deploy@192.168.1.1
+ DEBUG [35d01efc] Command: [ -L /opt/www/papayera/releases/20170707001157/public/assets ]
+ DEBUG [35d01efc] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [35d01efc] Finished in 0.128 seconds with exit status 1 (failed).
+ DEBUG [76451bfe] Running [ -d /opt/www/papayera/releases/20170707001157/public/assets ] as deploy@192.168.1.1
+ DEBUG [76451bfe] Command: [ -d /opt/www/papayera/releases/20170707001157/public/assets ]
+ DEBUG [76451bfe] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [76451bfe] Finished in 0.120 seconds with exit status 0 (successful).
+  INFO [3afe419c] Running /usr/bin/env rm -rf /opt/www/papayera/releases/20170707001157/public/assets as deploy@192.168.1.1
+ DEBUG [3afe419c] Command: /usr/bin/env rm -rf /opt/www/papayera/releases/20170707001157/public/assets
+ DEBUG [3afe419c] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [3afe419c] Finished in 0.128 seconds with exit status 0 (successful).
+  INFO [9f8db329] Running /usr/bin/env ln -s /opt/www/papayera/shared/public/assets /opt/www/papayera/releases/20170707001157/public/assets as deploy@192.168.1.1
+ DEBUG [9f8db329] Command: /usr/bin/env ln -s /opt/www/papayera/shared/public/assets /opt/www/papayera/releases/20170707001157/public/assets
+ DEBUG [9f8db329] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [9f8db329] Finished in 0.124 seconds with exit status 0 (successful).
+ DEBUG [23e78b24] Running if test ! -d /opt/www/papayera/releases/20170707001157; then echo "Directory does not exist '/opt/www/papayera/releases/20170707001157'" 1>&2; false; fi as deploy@192.168.1.1
+ DEBUG [23e78b24] Command: if test ! -d /opt/www/papayera/releases/20170707001157; then echo "Directory does not exist '/opt/www/papayera/releases/20170707001157'" 1>&2; false; fi
+ DEBUG [23e78b24] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [23e78b24] Finished in 0.124 seconds with exit status 0 (successful).
+ DEBUG [2ac80ef8] Running /usr/bin/env bundle check --path /opt/www/papayera/shared/bundle as deploy@192.168.1.1
+ DEBUG [2ac80ef8] Command: cd /opt/www/papayera/releases/20170707001157 && /usr/bin/env bundle check --path /opt/www/papayera/shared/bundle
+ DEBUG [2ac80ef8] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [2ac80ef8] 	The following gems are missing
+ * net-ssh (4.1.0)
+ DEBUG [2ac80ef8] 	 * net-scp (1.2.1)
+ * sshkit (1.13.1)
+ * airbrussh (1.3.0)
+ DEBUG [2ac80ef8] 	 * capistrano (3.8.2)
+ * capistrano-bundler (1.2.0)
+ * capistrano-rails (1.3.0)
+ * byebug (9.0.5)
+ * debug_inspector (0.0.2)
+ * binding_of_caller (0.7.2)
+ DEBUG [2ac80ef8] 	 * web-console (2.3.0)
+ DEBUG [2ac80ef8] 	 * spring (1.7.2)
+ * coderay (1.1.1)
+ DEBUG [2ac80ef8] 	 * better_errors (2.1.1)
+ * quiet_assets (1.1.0)
+ DEBUG [2ac80ef8] 	 * rails_layout (1.0.29)
+ * spring-commands-rspec (1.0.4)
+ DEBUG [2ac80ef8] 	 * factory_girl (4.7.0)
+ * factory_girl_rails (4.7.0)
+ DEBUG [2ac80ef8] 	 * faker (1.6.6)
+ * rspec-support (3.5.0)
+ DEBUG [2ac80ef8] 	 * rspec-core (3.5.2)
+ * diff-lcs (1.2.5)
+ DEBUG [2ac80ef8] 	 * rspec-expectations (3.5.0)
+ * rspec-mocks (3.5.0)
+ DEBUG [2ac80ef8] 	 * rspec-rails (3.5.1)
+ * sqlite3 (1.3.11)
+ DEBUG [2ac80ef8] 	 * addressable (2.4.0)
+ * xpath (2.0.0)
+ DEBUG [2ac80ef8] 	 * capybara (2.8.0)
+ * database_cleaner (1.5.3)
+ DEBUG [2ac80ef8] 	 * launchy (2.4.3)
+ * ffi (1.9.14)
+ DEBUG [2ac80ef8] 	 * childprocess (0.5.9)
+ * rubyzip (1.2.0)
+ DEBUG [2ac80ef8] 	 * websocket (1.2.3)
+ * selenium-webdriver (2.53.4)
+ DEBUG [2ac80ef8] 	Install missing gems with `bundle install`
+ DEBUG [2ac80ef8] Finished in 0.865 seconds with exit status 1 (failed).
+  INFO [3dae95fd] Running /usr/bin/env bundle install --path /opt/www/papayera/shared/bundle --without development test --deployment --quiet as deploy@192.168.1.1
+ DEBUG [3dae95fd] Command: cd /opt/www/papayera/releases/20170707001157 && /usr/bin/env bundle install --path /opt/www/papayera/shared/bundle --without development test --deployment --quiet
+ DEBUG [3dae95fd] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [3dae95fd] Finished in 5.797 seconds with exit status 0 (successful).
+ DEBUG [c719f934] Running if test ! -d /opt/www/papayera/releases/20170707001157; then echo "Directory does not exist '/opt/www/papayera/releases/20170707001157'" 1>&2; false; fi as deploy@192.168.1.1
+ DEBUG [c719f934] Command: if test ! -d /opt/www/papayera/releases/20170707001157; then echo "Directory does not exist '/opt/www/papayera/releases/20170707001157'" 1>&2; false; fi
+ DEBUG [c719f934] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [c719f934] Finished in 0.120 seconds with exit status 0 (successful).
+  INFO [5a4f969c] Running bundle exec rake assets:precompile as deploy@192.168.1.1
+ DEBUG [5a4f969c] Command: cd /opt/www/papayera/releases/20170707001157 && ( export RAILS_ENV="production" RAILS_GROUPS="" ; bundle exec rake assets:precompile )
+ DEBUG [5a4f969c] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [5a4f969c] 	rake aborted!
+TypeError: no implicit conversion of Fixnum into String
+ DEBUG [5a4f969c] 	/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/key_generator.rb:21:in `pbkdf2_hmac_sha1'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/key_generator.rb:21:in `generate_key'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/key_generator.rb:38:in `generate_key'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/railties-4.2.0/lib/rails/application.rb:205:in `message_verifier'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/globalid-0.3.7/lib/global_id/railtie.rb:25:in `block (2 levels) in <class:Railtie>'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:36:in `call'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `each'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/railties-4.2.0/lib/rails/application/finisher.rb:62:in `block in <module:Finisher>'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/railties-4.2.0/lib/rails/initializable.rb:30:in `instance_exec'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/railties-4.2.0/lib/rails/initializable.rb:30:in `run'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/railties-4.2.0/lib/rails/initializable.rb:55:in `block in run_initializers'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/railties-4.2.0/lib/rails/initializable.rb:54:in `run_initializers'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/railties-4.2.0/lib/rails/application.rb:352:in `initialize!'
+/opt/www/papayera/releases/20170707001157/config/environment.rb:5:in `<top (required)>'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `block in require'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/railties-4.2.0/lib/rails/application.rb:328:in `require_environment!'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/railties-4.2.0/lib/rails/application.rb:443:in `block in run_tasks_blocks'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/sprockets-rails-3.1.1/lib/sprockets/rails/task.rb:62:in `block (2 levels) in define'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/rake-11.2.2/exe/rake:27:in `<top (required)>'
+/home/deploy/.rbenv/versions/2.2.1/bin/bundle:23:in `load'
+/home/deploy/.rbenv/versions/2.2.1/bin/bundle:23:in `<main>'
+Tasks: TOP => environment
+(See full trace by running task with --trace)
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-06 20:08:20 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d3f17de1] Running /usr/bin/env mkdir -p /tmp as deploy@192.168.1.1
+ DEBUG [d3f17de1] Command: /usr/bin/env mkdir -p /tmp
+ DEBUG [d3f17de1] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [d3f17de1] Finished in 4.979 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-papayera-production-papayera.sh 0.0%
+  INFO Uploading /tmp/git-ssh-papayera-production-papayera.sh 100.0%
+  INFO [d4498016] Running /usr/bin/env chmod 700 /tmp/git-ssh-papayera-production-papayera.sh as deploy@192.168.1.1
+ DEBUG [d4498016] Command: /usr/bin/env chmod 700 /tmp/git-ssh-papayera-production-papayera.sh
+ DEBUG [d4498016] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [d4498016] Finished in 0.124 seconds with exit status 0 (successful).
+  INFO [5b65b81f] Running /usr/bin/env git ls-remote https://github.com/papayera-chirimia/papayera.git HEAD as deploy@192.168.1.1
+ DEBUG [5b65b81f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-papayera-production-papayera.sh" ; /usr/bin/env git ls-remote https://github.com/papayera-chirimia/papayera.git HEAD )
+ DEBUG [5b65b81f] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [5b65b81f] 	b5171ce00784104f694cd4b13b2132e42e9b78d4	HEAD
+  INFO [5b65b81f] Finished in 0.914 seconds with exit status 0 (successful).
+  INFO [9a2ad77d] Running /usr/bin/env mkdir -p /opt/www/papayera/shared /opt/www/papayera/releases as deploy@192.168.1.1
+ DEBUG [9a2ad77d] Command: /usr/bin/env mkdir -p /opt/www/papayera/shared /opt/www/papayera/releases
+ DEBUG [9a2ad77d] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [9a2ad77d] Finished in 0.128 seconds with exit status 0 (successful).
+  INFO [38870263] Running /usr/bin/env mkdir -p /opt/www/papayera/shared/log /opt/www/papayera/shared/tmp/pids /opt/www/papayera/shared/tmp/cache /opt/www/papayera/shared/tmp/sockets /opt/www/papayera/shared/public/assets as deploy@192.168.1.1
+ DEBUG [38870263] Command: /usr/bin/env mkdir -p /opt/www/papayera/shared/log /opt/www/papayera/shared/tmp/pids /opt/www/papayera/shared/tmp/cache /opt/www/papayera/shared/tmp/sockets /opt/www/papayera/shared/public/assets
+ DEBUG [38870263] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [38870263] Finished in 0.126 seconds with exit status 0 (successful).
+ DEBUG [0d3a8f70] Running [ -f /opt/www/papayera/current/REVISION ] as deploy@192.168.1.1
+ DEBUG [0d3a8f70] Command: [ -f /opt/www/papayera/current/REVISION ]
+ DEBUG [0d3a8f70] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [0d3a8f70] Finished in 0.125 seconds with exit status 1 (failed).
+ DEBUG [f28ba8ab] Running [ -f /opt/www/papayera/repo/HEAD ] as deploy@192.168.1.1
+ DEBUG [f28ba8ab] Command: [ -f /opt/www/papayera/repo/HEAD ]
+ DEBUG [f28ba8ab] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [f28ba8ab] Finished in 0.120 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /opt/www/papayera/repo
+ DEBUG [6a080a94] Running if test ! -d /opt/www/papayera/repo; then echo "Directory does not exist '/opt/www/papayera/repo'" 1>&2; false; fi as deploy@192.168.1.1
+ DEBUG [6a080a94] Command: if test ! -d /opt/www/papayera/repo; then echo "Directory does not exist '/opt/www/papayera/repo'" 1>&2; false; fi
+ DEBUG [6a080a94] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [6a080a94] Finished in 0.125 seconds with exit status 0 (successful).
+  INFO [dc35d558] Running /usr/bin/env git remote set-url origin https://github.com/papayera-chirimia/papayera.git as deploy@192.168.1.1
+ DEBUG [dc35d558] Command: cd /opt/www/papayera/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-papayera-production-papayera.sh" ; /usr/bin/env git remote set-url origin https://github.com/papayera-chirimia/papayera.git )
+ DEBUG [dc35d558] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [dc35d558] Finished in 0.134 seconds with exit status 0 (successful).
+  INFO [619bc7dd] Running /usr/bin/env git remote update --prune as deploy@192.168.1.1
+ DEBUG [619bc7dd] Command: cd /opt/www/papayera/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-papayera-production-papayera.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [619bc7dd] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [619bc7dd] 	Fetching origin
+  INFO [619bc7dd] Finished in 0.971 seconds with exit status 0 (successful).
+ DEBUG [9b99cdc1] Running if test ! -d /opt/www/papayera/repo; then echo "Directory does not exist '/opt/www/papayera/repo'" 1>&2; false; fi as deploy@192.168.1.1
+ DEBUG [9b99cdc1] Command: if test ! -d /opt/www/papayera/repo; then echo "Directory does not exist '/opt/www/papayera/repo'" 1>&2; false; fi
+ DEBUG [9b99cdc1] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [9b99cdc1] Finished in 0.166 seconds with exit status 0 (successful).
+  INFO [6d23d6ad] Running /usr/bin/env mkdir -p /opt/www/papayera/releases/20170707010827 as deploy@192.168.1.1
+ DEBUG [6d23d6ad] Command: cd /opt/www/papayera/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-papayera-production-papayera.sh" ; /usr/bin/env mkdir -p /opt/www/papayera/releases/20170707010827 )
+ DEBUG [6d23d6ad] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [6d23d6ad] Finished in 0.126 seconds with exit status 0 (successful).
+  INFO [6e3f4b74] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /opt/www/papayera/releases/20170707010827 as deploy@192.168.1.1
+ DEBUG [6e3f4b74] Command: cd /opt/www/papayera/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-papayera-production-papayera.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /opt/www/papayera/releases/20170707010827 )
+ DEBUG [6e3f4b74] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [6e3f4b74] Finished in 0.922 seconds with exit status 0 (successful).
+ DEBUG [b42b6935] Running if test ! -d /opt/www/papayera/repo; then echo "Directory does not exist '/opt/www/papayera/repo'" 1>&2; false; fi as deploy@192.168.1.1
+ DEBUG [b42b6935] Command: if test ! -d /opt/www/papayera/repo; then echo "Directory does not exist '/opt/www/papayera/repo'" 1>&2; false; fi
+ DEBUG [b42b6935] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [b42b6935] Finished in 0.831 seconds with exit status 0 (successful).
+ DEBUG [aa0b680d] Running /usr/bin/env git rev-list --max-count=1 master as deploy@192.168.1.1
+ DEBUG [aa0b680d] Command: cd /opt/www/papayera/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-papayera-production-papayera.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [aa0b680d] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [aa0b680d] 	b5171ce00784104f694cd4b13b2132e42e9b78d4
+ DEBUG [aa0b680d] Finished in 0.163 seconds with exit status 0 (successful).
+ DEBUG [b02f3952] Running if test ! -d /opt/www/papayera/releases/20170707010827; then echo "Directory does not exist '/opt/www/papayera/releases/20170707010827'" 1>&2; false; fi as deploy@192.168.1.1
+ DEBUG [b02f3952] Command: if test ! -d /opt/www/papayera/releases/20170707010827; then echo "Directory does not exist '/opt/www/papayera/releases/20170707010827'" 1>&2; false; fi
+ DEBUG [b02f3952] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [b02f3952] Finished in 0.330 seconds with exit status 0 (successful).
+  INFO [557a873a] Running /usr/bin/env echo "b5171ce00784104f694cd4b13b2132e42e9b78d4" >> REVISION as deploy@192.168.1.1
+ DEBUG [557a873a] Command: cd /opt/www/papayera/releases/20170707010827 && /usr/bin/env echo "b5171ce00784104f694cd4b13b2132e42e9b78d4" >> REVISION
+ DEBUG [557a873a] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [557a873a] Finished in 0.129 seconds with exit status 0 (successful).
+  INFO [a8432f59] Running /usr/bin/env mkdir -p /opt/www/papayera/releases/20170707010827 /opt/www/papayera/releases/20170707010827/tmp /opt/www/papayera/releases/20170707010827/public as deploy@192.168.1.1
+ DEBUG [a8432f59] Command: /usr/bin/env mkdir -p /opt/www/papayera/releases/20170707010827 /opt/www/papayera/releases/20170707010827/tmp /opt/www/papayera/releases/20170707010827/public
+ DEBUG [a8432f59] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [a8432f59] Finished in 0.130 seconds with exit status 0 (successful).
+ DEBUG [71798ad8] Running [ -L /opt/www/papayera/releases/20170707010827/log ] as deploy@192.168.1.1
+ DEBUG [71798ad8] Command: [ -L /opt/www/papayera/releases/20170707010827/log ]
+ DEBUG [71798ad8] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [71798ad8] Finished in 0.125 seconds with exit status 1 (failed).
+ DEBUG [f736ec2b] Running [ -d /opt/www/papayera/releases/20170707010827/log ] as deploy@192.168.1.1
+ DEBUG [f736ec2b] Command: [ -d /opt/www/papayera/releases/20170707010827/log ]
+ DEBUG [f736ec2b] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [f736ec2b] Finished in 0.126 seconds with exit status 0 (successful).
+  INFO [501193e7] Running /usr/bin/env rm -rf /opt/www/papayera/releases/20170707010827/log as deploy@192.168.1.1
+ DEBUG [501193e7] Command: /usr/bin/env rm -rf /opt/www/papayera/releases/20170707010827/log
+ DEBUG [501193e7] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [501193e7] Finished in 0.133 seconds with exit status 0 (successful).
+  INFO [3f2c5bc6] Running /usr/bin/env ln -s /opt/www/papayera/shared/log /opt/www/papayera/releases/20170707010827/log as deploy@192.168.1.1
+ DEBUG [3f2c5bc6] Command: /usr/bin/env ln -s /opt/www/papayera/shared/log /opt/www/papayera/releases/20170707010827/log
+ DEBUG [3f2c5bc6] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [3f2c5bc6] Finished in 0.123 seconds with exit status 0 (successful).
+ DEBUG [5af6c8cb] Running [ -L /opt/www/papayera/releases/20170707010827/tmp/pids ] as deploy@192.168.1.1
+ DEBUG [5af6c8cb] Command: [ -L /opt/www/papayera/releases/20170707010827/tmp/pids ]
+ DEBUG [5af6c8cb] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [5af6c8cb] Finished in 0.127 seconds with exit status 1 (failed).
+ DEBUG [b8d5b751] Running [ -d /opt/www/papayera/releases/20170707010827/tmp/pids ] as deploy@192.168.1.1
+ DEBUG [b8d5b751] Command: [ -d /opt/www/papayera/releases/20170707010827/tmp/pids ]
+ DEBUG [b8d5b751] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [b8d5b751] Finished in 0.119 seconds with exit status 1 (failed).
+  INFO [72c7f4d4] Running /usr/bin/env ln -s /opt/www/papayera/shared/tmp/pids /opt/www/papayera/releases/20170707010827/tmp/pids as deploy@192.168.1.1
+ DEBUG [72c7f4d4] Command: /usr/bin/env ln -s /opt/www/papayera/shared/tmp/pids /opt/www/papayera/releases/20170707010827/tmp/pids
+ DEBUG [72c7f4d4] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [72c7f4d4] Finished in 0.128 seconds with exit status 0 (successful).
+ DEBUG [49359781] Running [ -L /opt/www/papayera/releases/20170707010827/tmp/cache ] as deploy@192.168.1.1
+ DEBUG [49359781] Command: [ -L /opt/www/papayera/releases/20170707010827/tmp/cache ]
+ DEBUG [49359781] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [49359781] Finished in 0.121 seconds with exit status 1 (failed).
+ DEBUG [71b45991] Running [ -d /opt/www/papayera/releases/20170707010827/tmp/cache ] as deploy@192.168.1.1
+ DEBUG [71b45991] Command: [ -d /opt/www/papayera/releases/20170707010827/tmp/cache ]
+ DEBUG [71b45991] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [71b45991] Finished in 0.123 seconds with exit status 0 (successful).
+  INFO [15242649] Running /usr/bin/env rm -rf /opt/www/papayera/releases/20170707010827/tmp/cache as deploy@192.168.1.1
+ DEBUG [15242649] Command: /usr/bin/env rm -rf /opt/www/papayera/releases/20170707010827/tmp/cache
+ DEBUG [15242649] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [15242649] Finished in 0.192 seconds with exit status 0 (successful).
+  INFO [96967f68] Running /usr/bin/env ln -s /opt/www/papayera/shared/tmp/cache /opt/www/papayera/releases/20170707010827/tmp/cache as deploy@192.168.1.1
+ DEBUG [96967f68] Command: /usr/bin/env ln -s /opt/www/papayera/shared/tmp/cache /opt/www/papayera/releases/20170707010827/tmp/cache
+ DEBUG [96967f68] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [96967f68] Finished in 0.124 seconds with exit status 0 (successful).
+ DEBUG [8e922c14] Running [ -L /opt/www/papayera/releases/20170707010827/tmp/sockets ] as deploy@192.168.1.1
+ DEBUG [8e922c14] Command: [ -L /opt/www/papayera/releases/20170707010827/tmp/sockets ]
+ DEBUG [8e922c14] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [8e922c14] Finished in 0.121 seconds with exit status 1 (failed).
+ DEBUG [435b2801] Running [ -d /opt/www/papayera/releases/20170707010827/tmp/sockets ] as deploy@192.168.1.1
+ DEBUG [435b2801] Command: [ -d /opt/www/papayera/releases/20170707010827/tmp/sockets ]
+ DEBUG [435b2801] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [435b2801] Finished in 0.126 seconds with exit status 1 (failed).
+  INFO [ff3f9f7e] Running /usr/bin/env ln -s /opt/www/papayera/shared/tmp/sockets /opt/www/papayera/releases/20170707010827/tmp/sockets as deploy@192.168.1.1
+ DEBUG [ff3f9f7e] Command: /usr/bin/env ln -s /opt/www/papayera/shared/tmp/sockets /opt/www/papayera/releases/20170707010827/tmp/sockets
+ DEBUG [ff3f9f7e] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [ff3f9f7e] Finished in 0.125 seconds with exit status 0 (successful).
+ DEBUG [4a359a30] Running [ -L /opt/www/papayera/releases/20170707010827/public/assets ] as deploy@192.168.1.1
+ DEBUG [4a359a30] Command: [ -L /opt/www/papayera/releases/20170707010827/public/assets ]
+ DEBUG [4a359a30] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [4a359a30] Finished in 0.124 seconds with exit status 1 (failed).
+ DEBUG [be51a7e8] Running [ -d /opt/www/papayera/releases/20170707010827/public/assets ] as deploy@192.168.1.1
+ DEBUG [be51a7e8] Command: [ -d /opt/www/papayera/releases/20170707010827/public/assets ]
+ DEBUG [be51a7e8] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [be51a7e8] Finished in 0.120 seconds with exit status 0 (successful).
+  INFO [69fec81c] Running /usr/bin/env rm -rf /opt/www/papayera/releases/20170707010827/public/assets as deploy@192.168.1.1
+ DEBUG [69fec81c] Command: /usr/bin/env rm -rf /opt/www/papayera/releases/20170707010827/public/assets
+ DEBUG [69fec81c] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [69fec81c] Finished in 0.132 seconds with exit status 0 (successful).
+  INFO [b46a1f21] Running /usr/bin/env ln -s /opt/www/papayera/shared/public/assets /opt/www/papayera/releases/20170707010827/public/assets as deploy@192.168.1.1
+ DEBUG [b46a1f21] Command: /usr/bin/env ln -s /opt/www/papayera/shared/public/assets /opt/www/papayera/releases/20170707010827/public/assets
+ DEBUG [b46a1f21] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [b46a1f21] Finished in 0.130 seconds with exit status 0 (successful).
+ DEBUG [63891c13] Running if test ! -d /opt/www/papayera/releases/20170707010827; then echo "Directory does not exist '/opt/www/papayera/releases/20170707010827'" 1>&2; false; fi as deploy@192.168.1.1
+ DEBUG [63891c13] Command: if test ! -d /opt/www/papayera/releases/20170707010827; then echo "Directory does not exist '/opt/www/papayera/releases/20170707010827'" 1>&2; false; fi
+ DEBUG [63891c13] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [63891c13] Finished in 0.162 seconds with exit status 0 (successful).
+ DEBUG [91bee6bd] Running /usr/bin/env bundle check --path /opt/www/papayera/shared/bundle as deploy@192.168.1.1
+ DEBUG [91bee6bd] Command: cd /opt/www/papayera/releases/20170707010827 && /usr/bin/env bundle check --path /opt/www/papayera/shared/bundle
+ DEBUG [91bee6bd] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [91bee6bd] 	The following gems are missing
+ * net-ssh (4.1.0)
+ DEBUG [91bee6bd] 	 * net-scp (1.2.1)
+ * sshkit (1.13.1)
+ * airbrussh (1.3.0)
+ DEBUG [91bee6bd] 	 * capistrano (3.8.2)
+ * capistrano-bundler (1.2.0)
+ * capistrano-rails (1.3.0)
+ * byebug (9.0.5)
+ * debug_inspector (0.0.2)
+ * binding_of_caller (0.7.2)
+ DEBUG [91bee6bd] 	 * web-console (2.3.0)
+ * spring (1.7.2)
+ DEBUG [91bee6bd] 	 * coderay (1.1.1)
+ * better_errors (2.1.1)
+ DEBUG [91bee6bd] 	 * quiet_assets (1.1.0)
+ DEBUG [91bee6bd] 	 * rails_layout (1.0.29)
+ * spring-commands-rspec (1.0.4)
+ DEBUG [91bee6bd] 	 * factory_girl (4.7.0)
+ * factory_girl_rails (4.7.0)
+ DEBUG [91bee6bd] 	 * faker (1.6.6)
+ * rspec-support (3.5.0)
+ DEBUG [91bee6bd] 	 * rspec-core (3.5.2)
+ * diff-lcs (1.2.5)
+ DEBUG [91bee6bd] 	 * rspec-expectations (3.5.0)
+ * rspec-mocks (3.5.0)
+ DEBUG [91bee6bd] 	 * rspec-rails (3.5.1)
+ * sqlite3 (1.3.11)
+ DEBUG [91bee6bd] 	 * addressable (2.4.0)
+ * xpath (2.0.0)
+ DEBUG [91bee6bd] 	 * capybara (2.8.0)
+ * database_cleaner (1.5.3)
+ DEBUG [91bee6bd] 	 * launchy (2.4.3)
+ * ffi (1.9.14)
+ DEBUG [91bee6bd] 	 * childprocess (0.5.9)
+ * rubyzip (1.2.0)
+ DEBUG [91bee6bd] 	 * websocket (1.2.3)
+ * selenium-webdriver (2.53.4)
+ DEBUG [91bee6bd] 	Install missing gems with `bundle install`
+ DEBUG [91bee6bd] Finished in 0.830 seconds with exit status 1 (failed).
+  INFO [2d96e3c0] Running /usr/bin/env bundle install --path /opt/www/papayera/shared/bundle --without development test --deployment --quiet as deploy@192.168.1.1
+ DEBUG [2d96e3c0] Command: cd /opt/www/papayera/releases/20170707010827 && /usr/bin/env bundle install --path /opt/www/papayera/shared/bundle --without development test --deployment --quiet
+ DEBUG [2d96e3c0] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+  INFO [2d96e3c0] Finished in 5.548 seconds with exit status 0 (successful).
+ DEBUG [31d59c4f] Running if test ! -d /opt/www/papayera/releases/20170707010827; then echo "Directory does not exist '/opt/www/papayera/releases/20170707010827'" 1>&2; false; fi as deploy@192.168.1.1
+ DEBUG [31d59c4f] Command: if test ! -d /opt/www/papayera/releases/20170707010827; then echo "Directory does not exist '/opt/www/papayera/releases/20170707010827'" 1>&2; false; fi
+ DEBUG [31d59c4f] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [31d59c4f] Finished in 0.125 seconds with exit status 0 (successful).
+  INFO [1090a8a4] Running bundle exec rake assets:precompile as deploy@192.168.1.1
+ DEBUG [1090a8a4] Command: cd /opt/www/papayera/releases/20170707010827 && ( export RAILS_ENV="production" RAILS_GROUPS="" ; bundle exec rake assets:precompile )
+ DEBUG [1090a8a4] 	/home/deploy/.bashrc: línea 6: 170c46d0f1a54e77dd96360cff0643abb3696089625b70a023ed6c747efbeca1801f282a4396e99524f896b0bacb4d0dcfde4e83617e4db5719a4dbffb3f5e69: orden no encontrada
+ DEBUG [1090a8a4] 	rake aborted!
+TypeError: no implicit conversion of Fixnum into String
+ DEBUG [1090a8a4] 	/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/key_generator.rb:21:in `pbkdf2_hmac_sha1'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/key_generator.rb:21:in `generate_key'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/key_generator.rb:38:in `generate_key'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/railties-4.2.0/lib/rails/application.rb:205:in `message_verifier'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/globalid-0.3.7/lib/global_id/railtie.rb:25:in `block (2 levels) in <class:Railtie>'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:36:in `call'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:36:in `execute_hook'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `each'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/railties-4.2.0/lib/rails/application/finisher.rb:62:in `block in <module:Finisher>'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/railties-4.2.0/lib/rails/initializable.rb:30:in `instance_exec'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/railties-4.2.0/lib/rails/initializable.rb:30:in `run'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/railties-4.2.0/lib/rails/initializable.rb:55:in `block in run_initializers'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/railties-4.2.0/lib/rails/initializable.rb:54:in `run_initializers'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/railties-4.2.0/lib/rails/application.rb:352:in `initialize!'
+/opt/www/papayera/releases/20170707010827/config/environment.rb:5:in `<top (required)>'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `block in require'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/railties-4.2.0/lib/rails/application.rb:328:in `require_environment!'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/railties-4.2.0/lib/rails/application.rb:443:in `block in run_tasks_blocks'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/sprockets-rails-3.1.1/lib/sprockets/rails/task.rb:62:in `block (2 levels) in define'
+/opt/www/papayera/shared/bundle/ruby/2.2.0/gems/rake-11.2.2/exe/rake:27:in `<top (required)>'
+/home/deploy/.rbenv/versions/2.2.1/bin/bundle:23:in `load'
+/home/deploy/.rbenv/versions/2.2.1/bin/bundle:23:in `<main>'
+Tasks: TOP => environment
+(See full trace by running task with --trace)
